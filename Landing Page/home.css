@@ -1,0 +1,121 @@
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto,none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-color: #ffffec;
+}
+
+
+header {
+    padding: 5px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #ffffec;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+nav{
+    padding:5px;
+}
+
+nav h1{
+    font-size: 20px;
+}
+nav a {
+    font-size:  20px;
+    color:#ffffec;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #2978B5;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 10px;
+    color: #2978B5; /* Text color for sections */
+    margin-bottom: 20px; /* Add some space between sections */
+    border-radius: 10px; /* Add rounded corners to sections */
+    background-color: #ffffec; /* Use section background color */
+}
+.con{
+    padding-top: 80px; /* Adjust for the fixed header */
+    overflow: hidden; /* Clear floats */
+    margin: 0 auto; /* Center the content horizontally */
+    max-width: 1200px; /* Set maximum width for the content */
+    border: 2px solid #ffffec; /* Add border */
+    border-radius: 10px; /* Add border radius */
+    background-color: #ffffec; /* Set background color */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.text-section {
+    flex: 1; /* Let the text section take full width */
+    background-color: #ffffec;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width:100%;
+}
+
+.text-section h2 {
+    margin-top: 0;
+}
+
+.image-section1 {
+    width: 1024px;
+    height: 786px;
+    background-size: cover;
+    background-position: center;
+}
+
+.quote-section {
+    width: 55%;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    text-align:center;
+}
+
+.quote {
+    color: #ffffec;
+    font-size: 36px;
+    text-align: center;
+}
+
+#science-behind-it h2{
+    color:#141E46;
+}
+#impacts h2{
+    color:#141E46;
+}
+#solutions h2{
+    color:#141E46;
+}
+footer {
+    background-color: #ffffec;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
